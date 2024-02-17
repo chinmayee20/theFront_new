@@ -1,4 +1,4 @@
-import Logistics from './pages/Logistics'
+import Joblisting from './pages/JobListing'
 import { ThemeProvider } from '@mui/material/styles'
 import getTheme from './theme'
 
@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 function App() {
   return (
     <ThemeProvider theme={getTheme('light')}>
-    <Logistics />
+    <Joblisting />
     </ThemeProvider>
   );
 }
