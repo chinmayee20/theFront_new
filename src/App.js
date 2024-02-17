@@ -1,4 +1,4 @@
-import Logistics from './pages/Logistics'
+import Logistics from './pages/Logistics/Logistics'
 import { ThemeProvider } from '@mui/material/styles'
 import getTheme from './theme'
 
