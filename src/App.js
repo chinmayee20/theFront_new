@@ -1,4 +1,4 @@
-import Marketing from './pages/Marketing/index'
+import IndexView from './pages/IndexView/IndexView'
 import { ThemeProvider } from '@mui/material/styles'
 import getTheme from './theme'
 
@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 function App() {
   return (
     <ThemeProvider theme={getTheme('light')}>
-    <Marketing />
+    <IndexView />
     </ThemeProvider>
   );
 }
