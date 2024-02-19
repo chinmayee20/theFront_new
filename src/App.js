@@ -1,11 +1,11 @@
-import { Billing} from './components/Account'
+import { Notifications} from './components/Account'
 import { ThemeProvider } from '@mui/material/styles'
 import getTheme from './theme'
 
 function App() {
   return (
     <ThemeProvider theme={getTheme('light')}>
-      <Billing />
+      <Notifications />
     </ThemeProvider>
   )
 }
