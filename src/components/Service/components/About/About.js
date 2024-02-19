@@ -5,7 +5,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import LaptopSkeletonIllustration from '../../../../svg/illustrations/LaptopSkeleton';
+import LaptopSkeletonIllustration from '../../../..//assets/svg/illustrations/LaptopSkeleton';
 
 const Hero = () => {
   const theme = useTheme();
