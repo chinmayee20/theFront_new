@@ -2,7 +2,7 @@ import { ThemeProvider } from '@mui/material/styles'
 import getTheme from './theme'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Startup from './components/Startup'
+import Startup from './components/Startup/Startup'
 import Page from './components/Page';
 
 
