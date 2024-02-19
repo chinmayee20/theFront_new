@@ -25,6 +25,7 @@ const Newsletter = () => {
             <Typography
               variant="h4"
               align={'center'}
+              data-aos={'fade-up'}
               gutterBottom
               sx={{
                 fontWeight: 700,
@@ -39,6 +40,7 @@ const Newsletter = () => {
               sx={{
                 color: theme.palette.common.white,
               }}
+              data-aos={'fade-up'}
             >
               Don't lose a chance to be among the firsts to know about our
               upcoming news and updates.
@@ -69,6 +71,7 @@ const Newsletter = () => {
                   color: 'white !important',
                 },
               }}
+              data-aos="fade-up"
             >
               <OutlinedInput
                 endAdornment={
