@@ -1,4 +1,4 @@
-import Startup from "./components/Startup";
+import CloudHosting from "./components/CloudHosting";
 import { ThemeProvider } from "@mui/material/styles";
 import getTheme from "./theme";
 import Page from "./components/Page";
@@ -9,7 +9,7 @@ function App() {
   return (
     <ThemeProvider theme={getTheme("light")}>
       <Page>
-        <Startup />
+        <CloudHosting />
       </Page>
     </ThemeProvider>
   );
